@@ -47,7 +47,7 @@ namespace Ejercicio2ManejoDeValores
             Console.WriteLine("Ejercicio Parte 2");
 
 
-            decimal num3, num4, sumad, restad, productod, modulod, division1, division2; //potenciad
+            decimal num3, num4, sumad, restad, productod, modulod, division1, division2; // potenciad;
             Console.WriteLine("Ingrese un numero decimal");
             linea = Console.ReadLine();
             num3 = decimal.Parse(linea);
@@ -70,10 +70,9 @@ namespace Ejercicio2ManejoDeValores
             Console.ReadKey();
 
 
-            
-           //potenciad = Math.Pow(num3, num4);
-           //Console.WriteLine($"La potencia de los dos valores es: {potenciad}");
-           // Console.ReadKey();
+
+            Console.WriteLine($" Potencia = {Math.Pow(Convert.ToDouble(num3), Convert.ToDouble(num4))}");
+            Console.ReadKey();
 
             modulod = (num3 % num4);
             Console.WriteLine($"El módulo o resto de {num3} dividido {num4} es: {modulod}");
